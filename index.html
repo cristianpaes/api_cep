@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Consulta CEP</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="wrapper">
+  <div class="main">
+    <section class="hero is-link">
+      <div class="hero-body">
+        <div class="container">
+          <h1 class="title">
+            Consulta CEP
+          </h1>
+        </div>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container">
+        <form id="search">
+          <div class="form-row">
+            <div class="col-7">
+              <input id="cep" class="form-control" type="text" placeholder="Digite o CEP" maxlength="8" autocomplete="off" tabindex="1" autofocus required>
+              <p class="font-italic text-sm-left">Exemplo: 01001001</p>
+            </div>
+          </div>
+        </form>
+      </div>
+      <div id="saida" class="container"></div>
+    </section>
+  </div>
+  <footer class="text-center cor_back" style="padding:0px; margin:0px">
+    <div class="container">
+      <div class="container-fluid ">
+          <p style="margin:0px;padding-top:15px;padding-bottom:15px;">Desenvolvido por <strong>Cristian P. C. Paes</strong>
+          </p>
+      </div>
+    </div>
+  </footer>
+  <script src="app.js"></script>
+</body>
+</html>

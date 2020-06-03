@@ -1,0 +1,56 @@
+.wrapper {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+}
+.main {
+  flex: 1;
+}
+
+.hero.is-link {
+  background-color: #61380B;
+  color: #D8D8D8;
+}
+
+.cor_back{
+  background-color: #61380B;
+  color: #D8D8D8;
+}
+
+.hero-body {
+  padding: 1rem;
+}
+.section {
+  padding: 1.5rem;
+}
+#output {
+  padding: 1rem 0; 
+}
+.footer {
+  padding: .8rem;
+}
+
+.message {
+  background-color: #ECF8E0;
+  border-radius: 3px;
+  font-size: 1rem;
+}
+
+.message-header {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #61380B;
+  border-radius: 3px 3px 0 0;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  line-height: 1.25;
+  padding: 0.5em 0.75em;
+  position: relative;
+}
+
